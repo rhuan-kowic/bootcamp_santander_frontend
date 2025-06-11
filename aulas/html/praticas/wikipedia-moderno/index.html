@@ -1,44 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
-
-    <div class="bar"></div>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/images/wikipedia.png" width="200" />
+      </div>
+      <nav class="bar">
+        <form action="get">
+          <input type="text" placeholder="Buscar na Wikipédia" />
+          <button type="submit">Pesquisar</button>
+        </form>
+        <ul>
+          <li><a href="#">Donativos</a></li>
+          <li><a href="#">Criar uma conta</a></li>
+          <li><a href="#">Entrar</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+      <nav class="sidebar">
+        <h2>Sōsō no Frieren</h2>
+        <ul>
+          <li><a href="#">Links</a></li>
+          <li>
+            <a href="#midia">Mídia</a>
             <ul>
-                <li><a href="#">Links</a></li>
+              <li><a href="#manga">Mangá</a></li>
+              <li><a href="#anime">Anime</a></li>
             </ul>
-        </div>
+          </li>
+        </ul>
+      </nav>
 
-        <div class="main">
-            
-        </div>
+      <main>
+        <section>
+          <p>
+            Sōsō no Frieren (葬送のフリーレン, Sōsō no Furīren), conhecido no
+            Brasil como Frieren e a Jornada para o Além e em Portugal como
+            Frieren, é uma série de mangá japonesa escrita por Kanehito Yamada e
+            ilustrada por Tsukasa Abe, sendo publicada pela revista Weekly
+            Shōnen Sunday da Shogakukan desde abril de 2020, com capítulos
+            compilados em 14 volumes de tankōbon até março de 2025. Em dezembro
+            de 2023, o mangá tinha mais de 17 milhões de cópias em circulação.
+            Em 2021, ganhou o 14° Mangá Taishō e o Prêmio Novo Criador do 25°
+            Prêmio Cultural Anual Tezuka Osamu.
+          </p>
+        </section>
+        <section id="midia">
+          <h2><i>Mídia</i></h2>
+          <article id="manga">
+            <h3>Mangá</h3>
+            <p>
+              A obra é escrita por Kanehito Yamada e ilustrada por Tsukasa Abe.
+              A série começou na revista de mangá shōnen da Shogakukan, Weekly
+              Shōnen Sunday, em 28 de abril de 2020. Em janeiro de 2023, foi
+              anunciado que o mangá entraria em um hiato, e foi retornou em
+              março do mesmo ano. A Shogakukan reuniu seus capítulos em tankōbon
+              individuais. O primeiro volume foi publicado em 18 de agosto de
+              2020. Em 18 de março de 2025, catorze volumes foram lançados.
+            </p>
+          </article>
+          <article id="anime">
+            <h3>Anime</h3>
+            <p>
+              Em setembro de 2022, foi anunciado na capa do nono volume do mangá
+              que a série receberia uma adaptação para anime. Mais tarde, foi
+              revelado que era uma série de televisão produzida por Madhouse e
+              dirigida por Keiichirō Saitō, com roteiros supervisionados por
+              Tomohiro Suzuki, design de personagens feito por Reiko Nagasawa e
+              música composta por Evan Call. A série estreou com um especial de
+              duas horas em 29 de setembro de 2023 no bloco de programação
+              Kin'yō Road Show [ja] da Nippon TV (que geralmente é reservado
+              para longas-metragens), sendo a primeira série de anime a fazê-lo.
+              A série terá duração de dois cours consecutivos. Yoasobi cantou o
+              primeiro tema de abertura "Yūsha" (勇者, "Hero"), enquanto Milet
+              cantou o tema de encerramento "Anytime Anywhere". Milet também
+              cantou a música tema de encerramento do primeiro episódio,
+              "Bliss". Yorushika apresentará a segunda música tema de abertura
+              "Hareru" (晴る).
+            </p>
+          </article>
+        </section>
+      </main>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
+      <aside>
+        <h2>Sōsō no Frieren</h2>
+        <img
+          src="assets/images/soso_no_Frieren_volume_1.jpeg"
+          alt="A capa do primeiro volume de Sōsō no Frieren "
+          width="230px"
+        />
+        <ul>
+          <li>Gêneros: Aventura, Fantasia, Drama</li>
+          <li>Escrito por Kanehito Yamada</li>
+          <li>Ilustrado por Sukasa Abe</li>
+        </ul>
+      </aside>
     </div>
 
-    <div class="footer">
-
-    </div>
-</body>
+    <footer>
+      <p>
+        Esta página foi editada pela última vez às 23h30min de 17 de março de
+        2025.
+      </p>
+      <p>
+        Este texto é disponibilizado nos termos da licença
+        Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0) da Creative
+        Commons; pode estar sujeito a condições adicionais. Para mais detalhes,
+        consulte as condições de utilização.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="#">Política de privacidade</a></li>
+          <li><a href="#">Sobre a wikipedia</a></li>
+          <li><a href="#">Avisos gerais</a></li>
+          <li><a href="#">Código de conduta</a></li>
+          <li><a href="#">Programadores</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
