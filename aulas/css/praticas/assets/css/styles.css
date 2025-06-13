@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+
+header {
+    padding: 2rem;
+    background-color: rgb(59, 91, 236);
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section h2 {
+    color: #ffffff;
+    background-color: #E35214;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.container-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    border-radius: 1rem;
+    border: #c2c2c2 solid 1px;
+    padding: .5rem;
+    flex-basis: 250px;
+    flex-direction: column;
+    height: 400px;
+    grid: 2;
+}
+
+.card:hover{
+    background-color: #c2c2c2;
+    transition: .5s;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.card span {
+    display: block;
+}
+
+.price {
+    text-decoration: line-through;
+    color: #c2c2c2;
+    margin: .2rem 0;
+}
+
+.price-promo {
+    color: #E35214;
+    font-size: 1.4rem;
+}
+
+.buy {
+    color: #ffffff;
+    background-color: #E35214;
+    width: 240px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: .4rem;
+    padding: .3rem 0;
+    margin-top: auto;
+    height: auto;
+}
+
+.buy:hover{
+    background-color: #ffffff;
+    color: #E35214;
+    transition: .5s;
+}
+
