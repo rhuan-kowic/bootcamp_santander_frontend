@@ -1,0 +1,74 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav li {
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+main {
+    display: flex;
+}
+
+#skills {
+    background-color: lightcoral;
+    border: 1px solid salmon;
+    border-radius: 4px;
+    padding: 32px;
+}
+
+#skills {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 720px) {
+    main {
+        flex-direction: row;
+        gap: 8px;
+        max-width: 1200px;
+        margin: auto;
+        margin: 32px auto;
+    }
+
+    #presentation {
+        flex-basis: 500px;
+    }
+
+    #skills {
+        flex: 1;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        flex: 1;
+        text-align: center;
+    }
+}
